@@ -36,7 +36,7 @@ AdGuard for iOS is an app that blocks ads in Safari browser at exceptional level
 
 <a id="issue"></a>
 
-### How to report an issue?
+### How to report an issue
 
 GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdGuardforiOS/issues) and click the _New issue_ button.
 
