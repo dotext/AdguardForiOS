@@ -63,7 +63,7 @@ Here is a [dedicated page](https://adguard.com/contribute.html) for those who ar
 
 ### How to become a beta tester
 
-You can submit an application to participate in AdGuard for iOS beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
+You can use TestFlight to participate in the AdGuard for iOS beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html?platform=ios).
 
 <a id="how-to-build"></a>
 
