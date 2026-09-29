@@ -22,20 +22,21 @@ body:
     id: app_version
     attributes:
       label: AdGuard version
-      description: What version of our application are you running?
+      description: What version of AdGuard for iOS are you running?
       placeholder: For example, 4.5.22
     validations:
       required: true
 
   - type: textarea
+    id: enviroment
     attributes:
       label: Environment
       description: |
         Examples:
-          - **OS**: iOS 27.0
-          - **Device**: iPhone 18 Pro
+          - **iOS/iPadOS version**: iOS 27.2
+          - **Device**: iPhone 18 Pro Max
       value: |
-          - OS:
+          - iOS/iPadOS version:
           - Device:
     validations:
       required: true
