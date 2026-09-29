@@ -45,7 +45,7 @@ body:
       value: |
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github) please.
+        please use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github).
         
   - type: dropdown
     id: filters_adblock
@@ -307,6 +307,15 @@ body:
     validations:
       required: false
 
+  - type: input
+    id: customer_id
+    attributes:
+      label: Support ticket ID
+      description: If you've already sent us a diagnostic report through the application, share the ticket ID number. You can find it in an auto-reply email from AdGuard support after sending a report.
+      placeholder: Enter a ticket ID
+    validations:
+      required: false
+
   - type: textarea
     id: what-happened
     attributes:
@@ -343,7 +352,7 @@ body:
     attributes:
       label: Screenshots
       description: |
-        If applicable add screenshots explaining your problem.
+        If applicable, add screenshots explaining your problem.
         You can drag and drop images or paste them from clipboard.
         Use `<details> </details>` tag to hide screenshots under the spoiler.
       placeholder: If applicable, add screenshots explaining your problem.
@@ -351,6 +360,7 @@ body:
           <details><summary>Screenshot 1</summary>
           <!-- Paste screenshot below. -->
           
+
           
           </details>
     validations:
